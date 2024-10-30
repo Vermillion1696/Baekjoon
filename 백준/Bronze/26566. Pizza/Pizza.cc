@@ -12,7 +12,7 @@ int main() {
 		
 		cin >> slice_area >> slice_price;
 		cin >> whole_radius >> whole_price;
-		whole_area = whole_radius * whole_radius * 3.141592;
+		whole_area = whole_radius * whole_radius * 3;
 
 		if (whole_area / whole_price > slice_area / slice_price) {
 			cout << "Whole pizza" << endl;
